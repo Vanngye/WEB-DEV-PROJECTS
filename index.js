@@ -6,7 +6,7 @@ const { default: mongoose, Error } = require("mongoose");
 const JWT_SECRET="yappienoodles@qqqqqq";
 const app = express();
 const{z}=require("zod");
-mongoose.connect("mongodb+srv://vaideeshkacad:Yeyeetnene10!@cluster0.yl8ua.mongodb.net/todo-app-database")
+
 app.use(express.json());
 
 app.post("/signup",async function(req,res){
